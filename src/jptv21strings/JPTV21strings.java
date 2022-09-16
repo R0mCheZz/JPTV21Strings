@@ -31,5 +31,6 @@ public class JPTV21strings {
     System.out.println("charArrayEnd = " + Arrays.toString(charArrayEnd));
     String reversString = new String(charArrayEnd);
     System.out.println("Revers string "+ reversString);
+    System.out.println("Теперь,я могу работать дома над этим проектом");
 }
 }
