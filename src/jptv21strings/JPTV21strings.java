@@ -33,5 +33,10 @@ public class JPTV21strings {
     System.out.println("Revers string "+ reversString);
     System.out.println("Теперь,я могу работать дома над этим проектом");
     System.out.println("Itˇs classwork");
+    System.out.println("----- Использование StringBuilder -----");
+    System.out.println("Введите длинный текст:");
+    str = scanner.nextLine();
+    StringBuilder sb = new StringBuilder(str);
+    System.out.println(sb.reverse());
 }
 }
